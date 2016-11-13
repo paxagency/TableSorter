@@ -1,0 +1,10 @@
+#list{margin:0; padding:0;}
+#list.show table{min-height:3px; height:3px;}
+#list li {margin:0; padding:0; list-style: none;border-left:solid 20px #aaa;}
+#list table {background:#fafafa;text-align: left;   width:100%;table-layout:fixed;text-align:center;border-collapse:collapse}
+#list table td {background:#fff; border:solid 2px #e4e7ea;vertical-align: top;padding:20px; }
+#list table td:hover {border:dashed 2px #888;}
+#list table td.active {background:#eef5f9;}
+#list table td.dragging {max-width:200px !important; max-height:50px !important;}
+#list table td span {font-size:14px;}
+#list td.placeholder {background:#eef5f9;}
